@@ -1,0 +1,55 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    making changes on the source code can introduce unintentionally new bugs. so having the older version and comparing it to the newer version will show us exactly where the changes are so we can identify : 
+    	- typo errors
+    	- what the removed code does
+    	- what the added code does
+    Identifying what the added and removed code does whill help us see why we add it or removed it which lead to better understanding of the inintende behavior of our program and capturing what lines of code caused that beahvior.that's when we identify the bug and that's how seeing the diff between two version helped us capture it.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Having easy access to the entire history of a file can be very benefit to me. So it would help me
+    	- find and fix bugs faster which help me respect deadlines
+    	- reuse older code or even start a new project from it
+    	- getting back functionality that I removed fastly so I done't have to write the functionality from scratch
+    	- easily improve functionality cause I'm having the old code
+    	- by checking the older versions I could remeber and understand why I introduce some changes to the code
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    pros of manually creating a commit
+    	- it gives you more control. you are the responsible for choosing time to commit.
+    	- it help applying the practice of making a commit per logical changes.
+    cons of manually creating a commit
+    	- it is hard to specify the right time for making a commit. since it is not always clear if the changes that have been made are smaller or bigger for making a commit.
+    	- sometimes you forget to make a commit.
+    pros of automatically creating a commit
+    	- you never forget to create a commit
+    	- you done't have to decide whether you commit or not
+    cons of automatically creating a commit
+    	- a lot of changes could have been made between two commits wich makes it harder to read a diff.
+    	- you can have unuseful commit
+    	- toy may find yourself with a large history.
+    	- you can't make per logical change commit since they're automatic, so you may find big or small commit.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    - Git was designed by developpers for developpers, So they know that file in a coding project can interlate and they know that changes in a file may affect the entire project
+
+How can you use the commands git log and git diff to view the history of files?
+
+    - The command git log gives you all the commit that have been made since the beggining of the project, and by using the command git diff you can compare between any two versions of the file, So you can see all the changes that had been introduced to the files since the beggining of the project
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    - Using version control make you more confident to make changes because you know you can always have back previous working version of the project
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    - I want to try it on a project I'm working on, by keeping the history of the changes I made on the project.
