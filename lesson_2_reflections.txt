@@ -11,4 +11,14 @@ How can you use the staging area to make sure you have one commit per logical ch
 	-You can compare between the last commit and the staging area, which will help you keep track of the last changes you made, and you can always control the amout of changes that you made 
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-	-Branches are useful when you want to try or to add a feature that you are not sure about adding it to the project.  
+	-Branches are useful when you want to try or to add a feature that you are not sure about adding it to the project.
+
+How do the diagrams help you visualize the branch structure?
+	-Seeing the diagram help you identify where and when the branches got created, So you don't get lost between branchs.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	-The result is a commit containig changes introduced in both branches, we represent it in the diagram that way 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	-Git's automatic merging will make the process faster and less frustrated so you won't care about when or where the changes have been introduced, but one probleme is when there is a conflict and git can't decide what to do.merges manually ca solve the probleme of conflicts but it can be time consuming and less productive
+
